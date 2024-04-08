@@ -14,11 +14,11 @@ while (credito > 0):
         print("Entrada inválida!\nTente novamente")
     elif (valor_item <= credito):
         credito -= valor_item
-        print(f"\nSaldoAtual: R${credito}")
+        print(f"\nSaldoAtual: R${credito:.2f}")
     else:
         print("\nCompra negado, você tá duro 🥵")
-        print(f"Saldo atual: R${credito}\n"+
-               f"Valor do produto: R${valor_item}")
+        print(f"Saldo atual: R${credito:.2f}\n"+
+               f"Valor do produto: R${valor_item:.2f}")
         break
     escolha = input("Quer Continuar comprando?: ")
     if escolha.lower() == "sim":
