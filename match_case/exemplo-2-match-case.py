@@ -20,3 +20,5 @@ match periodo:
     case _:
         print(f"\nTá chapando?")
     
+    
+    

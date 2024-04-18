@@ -31,7 +31,7 @@ match var_teste:
         comandos de bloco 4  
     case _:
         comandos de bloco default <opcional>
-        '''
+        
         
         
 linguagem = input("Digite qual linguagem de programação você tem interesse em aprender: ")
@@ -46,3 +46,7 @@ match linguagem:
         # Default
         case _:
             print("Entrada inválida")
+            
+print("Agpra vai  estudar essa porra de linguagem")
+
+'''
