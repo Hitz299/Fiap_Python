@@ -40,8 +40,10 @@ else:
 
 lista.sort()
 print(lista)
-'''
+
 
 texto = "oi e thchau e pegue e no e meu e pau"
 
 print(texto.split(" e "))
+
+'''
