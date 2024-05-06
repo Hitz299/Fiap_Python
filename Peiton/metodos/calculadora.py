@@ -5,7 +5,13 @@ def menu():
     print("3 - Multiplicação")
     print("4 - Divisão")
     opcao = int(input("Esocolha a opreção: "))
+    opcao = entrada_invalida(opcao)
     return opcao
+  
+def entrada_invalida(opcao):
+     while opcao < 1 or opcao > 4:
+        opcao = int(input("entrada inválida: "))
+     return opcao
 
 def entrada_dados():
     print("*-* Entrada de dados *-*")
