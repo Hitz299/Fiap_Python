@@ -44,7 +44,7 @@ def criar_matriz(n_linhas, n_colunas, valor):
         matriz.append(linha)
     return matriz
 #principal
-M = criar_matriz(3, 5, 0)
+M = criar_matriz(3, 5, 1)
 M[2][2] = 1000
 M[0][2] = 543
 print(M)
